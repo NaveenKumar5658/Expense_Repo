@@ -6,6 +6,7 @@ const categoriesController = require('../app/controller/categoriesController')
 const expensesController = require('../app/controller/expensesController')
 const budgetController = require('../app/controller/budgetsController')
 const {authenticateUser} = require('../app/middleware/authenctication')
+const resourceController = require('../app/controller/resourceController')
 
 router.post('/api/user/register', usersController.register)
 router.post('/api/user/login', usersController.login)
