@@ -24,6 +24,12 @@ const userSchema = new Schema({
         minlength : 8,
         maxlength : 128
     },
+    password : {
+        type : String,
+        required : true,
+        minlength : 8,
+        maxlength : 128
+    },
     profile : {
         name : {
             type : String,
